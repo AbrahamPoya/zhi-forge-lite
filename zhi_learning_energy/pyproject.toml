@@ -1,0 +1,12 @@
+[project]
+name = "zhi-learning-energy"
+version = "0.1.0"
+description = "CLI + SDK for AGI semantic energy evolution model"
+authors = [
+  {name = "abraham poya", email = "abraham@example.com"}
+]
+dependencies = ["typer", "pydantic"]
+requires-python = ">=3.8"
+
+[project.scripts]
+zhi-learn = "zhi_learning_energy:app"
